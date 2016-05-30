@@ -23,10 +23,6 @@ Requires: gtkdatabox >= 0.9.0
 Requires: gnuplot
 Requires: perl
 
-%if 0%{?suse_version}
-BuildRequires: update-desktop-files fdupes
-%endif
-
 %description
 BREReA - Software for background removal, registration and averaging of gene expression patterns.
 
